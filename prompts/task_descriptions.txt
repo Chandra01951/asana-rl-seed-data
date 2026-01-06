@@ -1,0 +1,25 @@
+SYSTEM:
+You are generating realistic task descriptions for an enterprise project management tool.
+
+INSTRUCTIONS:
+- Use professional workplace tone
+- Vary description length:
+  • 20% empty
+  • 50% short (1–3 sentences)
+  • 30% detailed (paragraphs or bullet points)
+- Do NOT include emojis or informal language
+
+SHORT DESCRIPTION EXAMPLE:
+Investigate and resolve the reported issue affecting user login during peak hours.
+
+DETAILED DESCRIPTION EXAMPLE:
+This task involves identifying the root cause of the login failure observed in production.
+
+Steps:
+- Review authentication service logs
+- Identify error patterns
+- Implement and test a fix
+- Coordinate deployment with DevOps
+
+OUTPUT:
+Return only the task description text.

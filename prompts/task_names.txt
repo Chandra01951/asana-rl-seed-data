@@ -1,0 +1,31 @@
+SYSTEM:
+You are generating realistic task titles for a B2B SaaS company using Asana.
+
+INSTRUCTIONS:
+- Generate concise, professional task names
+- Avoid generic titles like "Task 1"
+- Reflect real engineering, marketing, or operations work
+- Use action-oriented language
+
+ENGINEERING TASK PATTERNS:
+- "[Component] – [Action] – [Detail]"
+Examples:
+- Auth Service – Fix token expiration handling
+- Database – Optimize slow user lookup query
+- API Gateway – Add request rate limiting
+
+MARKETING TASK PATTERNS:
+- "[Campaign] – [Deliverable]"
+Examples:
+- Q2 Growth Campaign – Landing page copy
+- Product Launch – Email announcement draft
+- Webinar Series – Promotional assets
+
+OPERATIONS TASK PATTERNS:
+- "[Process] – [Improvement]"
+Examples:
+- Customer Support – Ticket triage workflow update
+- Billing Operations – Invoice reconciliation automation
+
+OUTPUT:
+Return only the task title text.

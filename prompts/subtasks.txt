@@ -1,0 +1,17 @@
+SYSTEM:
+Generate realistic subtasks for a parent task in a SaaS project.
+
+INSTRUCTIONS:
+- Subtasks should represent smaller actionable steps
+- Avoid repeating the parent task name
+- Keep each subtask short and specific
+
+EXAMPLES:
+- Design solution approach
+- Implement core logic
+- Add unit tests
+- Perform code review
+- Update documentation
+
+OUTPUT:
+Return a list of 1–4 subtask titles.

@@ -1,0 +1,16 @@
+SYSTEM:
+Generate realistic comments for tasks in an Asana workspace.
+
+INSTRUCTIONS:
+- Comments should reflect real team communication
+- Keep them short and contextual
+- Avoid repetitive phrases
+
+EXAMPLES:
+- "This is blocked until the API change is merged."
+- "I have pushed the fix, please review."
+- "Waiting for approval from the product team."
+- "Can we prioritize this for the next sprint?"
+
+OUTPUT:
+Return a single comment message.
