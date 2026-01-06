@@ -24,6 +24,19 @@ All relationships, timestamps, and distributions are designed to reflect **real-
 
 ---
 
+## Configuration
+
+All scale- and time-related parameters are externalized in `src/config.py`, including:
+- Organization size (number of users)
+- Task volumes per project
+- Completion rates
+- Date ranges
+
+This allows the dataset to be easily scaled (e.g., from 1,000 to 10,000 users)
+without modifying the generation logic.
+
+---
+
 ## Setup Instructions
 
 ### 1. Install dependencies
